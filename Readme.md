@@ -1,6 +1,6 @@
 # Welcome to My Portfolio Website
 
-![This is a preview](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is a preview](https://github.com/smTadeeb/smtadeeb_portfolio/blob/main/images/preview.png?raw=true)
 
 Hello and welcome to my portfolio website! My name is Sheikh Muhammed Tadeeb, and I am a Jr. DevOps enthusiast. Here you will find all the information about me, including my skills, experience, certifications, blogs, and extra-curricular activities.
 
