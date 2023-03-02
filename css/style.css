@@ -8435,7 +8435,7 @@ h1, h2, h3, h4, h5,
     @media (max-width:550px) {
       .owl-carousel.home-slider {
         position: relative;
-        height: 60vh;
+        height: 86vh;
         z-index: 0; }
     }
 
@@ -9701,3 +9701,10 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* @media (max-width:550px) {
+  .extra-style-about {
+    margin-top: 400px;
+  } 
+} */
+
