@@ -2,7 +2,7 @@
 
 ![This is a preview](https://github.com/smTadeeb/smtadeeb_portfolio/blob/main/images/preview.png?raw=true)
 
-Hello and welcome to my portfolio website! My name is Sheikh Muhammed Tadeeb, and I am a Jr. DevOps enthusiast. Here you will find all the information about me, including my skills, experience, certifications, blogs, and extra-curricular activities.
+Hello and welcome to my portfolio website! My name is Sheikh Muhammed Tadeeb, and I am a Jr. DevOps enthusiast. Here you will find all the information about me, including my skills, experience, certifications, blogs, and extra-curricular activities. You can check it here [Click to see Portfolio Website](https://smtadeeb.github.io/smtadeeb_portfolio/)
 
 ## About Me
 I am a highly motivated and enthusiastic Jr. DevOps enthusiast with 6 Months of experience in the field. My passion for technology and problem-solving has led me to pursue a career in DevOps, where I have developed a diverse set of skills and experience in the industry.
