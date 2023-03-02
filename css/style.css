@@ -9702,9 +9702,9 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-/* @media (max-width:550px) {
+@media (max-width:550px) {
   .extra-style-about {
     margin-top: 400px;
   } 
-} */
+}
 
