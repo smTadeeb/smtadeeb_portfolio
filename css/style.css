@@ -9707,4 +9707,36 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 
+.GitHub{
+  display: inline-block;
+  width: 48px;           /* change size as needed */
+  height: 48px;
+  background-image: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>\
+    <g fill='none' fill-rule='evenodd'>\
+      <!-- octocat head silhouette -->\
+      <path d='M50 6c-14 0-26 8-32 20-8 0-8 5-8 5 0 7 5 11 5 11-1 1-6 4-6 12 0 17 12 25 23 28 0 4-1 9-1 12 0 1 1 2 2 2h28c1 0 2-1 2-2 0-3-1-8-1-12 11-3 23-11 23-28 0-8-5-11-6-12 0 0 5-4 5-11 0 0 0  -5-5-8-5-6-20-20-44-20z' fill='%23000'/>\
+      <!-- simple eyes to make it look like a face -->\
+      <circle cx='37' cy='48' r='3' fill='%23fff'/>\
+      <circle cx='63' cy='48' r='3' fill='%23fff'/>\
+    </g>\
+  </svg>");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: transform .12s ease, opacity .12s ease;
+}
 
+/* Hover/focus state */
+.GitHub:hover,
+.GitHub:focus{
+  transform: scale(1.08);
+  opacity: 0.92;
+}
+
+/* Example: dark mode inverse (white icon) */
+.GitHub.inverse{
+  filter: invert(1) saturate(0) brightness(2);
+}
