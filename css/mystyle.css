@@ -1,170 +1,56 @@
-#skills-section {
-    background: #000;
-    color: #fff;
-    padding: 80px 0;
-}
-
-#skills-section .heading-section h1,
-#skills-section .heading-section h2 {
-    color: #ffbd39;
-}
-
-#skills-section .heading-section p {
-    color: #ccc;
-    font-size: 1.1rem;
-}
-
 .skill-category {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 12px;
-    padding: 25px;
-    height: 100%;
-    border: 1px solid rgba(255, 189, 57, 0.1);
-    transition: all 0.3s ease;
-}
-
-.skill-category:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(255, 189, 57, 0.15);
-    border-color: rgba(255, 189, 57, 0.3);
-}
-
-.category-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 189, 57, 0.2);
-    padding-bottom: 15px;
-}
-
-.category-icon {
-    font-size: 28px;
-    margin-right: 15px;
-}
-
-.skill-category h3 {
-    color: #ffbd39;
-    margin: 0;
-    font-size: 1.3rem;
-}
-
-.skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.skill-pill {
-    padding: 8px 16px;
-    border-radius: 30px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: all 0.2s ease;
-}
-
-.skill-pill.advanced {
-    background: #ffbd39;
-    color: #000;
-    border: 1px solid #ffbd39;
-}
-
-.skill-pill.intermediate {
-    background: rgba(255, 189, 57, 0.2);
-    color: #ffbd39;
-    border: 1px solid #ffbd39;
-}
-
-.skill-pill.learning {
-    background: rgba(255, 189, 57, 0.1);
-    color: #ffbd39;
-    border: 1px solid rgba(255, 189, 57, 0.5);
-}
-
-.skill-pill:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(255, 189, 57, 0.3);
-}
-
-.skill-legend {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
+    margin-bottom: 30px;
     padding: 20px;
-    text-align: center;
-    border: 1px solid rgba(255, 189, 57, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
 }
 
-.skill-legend h4 {
+.skill-header {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.skill-header i {
+    margin-right: 10px;
     color: #ffbd39;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-list li {
+    padding: 8px 0;
+    color: #ccc;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.1);
+}
+
+.skill-list li:last-child {
+    border-bottom: none;
+}
+
+.proficiency-levels {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+}
+
+.proficiency-item {
     margin-bottom: 15px;
 }
 
-.legend-items {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+.proficiency-label {
+    display: block;
+    color: #ffbd39;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-.legend-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.legend-dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.legend-dot.advanced {
-    background: #ffbd39;
-}
-
-.legend-dot.intermediate {
-    background: rgba(255, 189, 57, 0.5);
-}
-
-.legend-dot.learning {
-    background: rgba(255, 189, 57, 0.2);
-    border: 1px solid rgba(255, 189, 57, 0.5);
-}
-
-/* Responsive adjustments */
-@media (max-width: 767px) {
-    .skill-category {
-        padding: 20px 15px;
-    }
-    
-    .skills-grid {
-        gap: 8px;
-    }
-    
-    .skill-pill {
-        padding: 6px 12px;
-        font-size: 0.85rem;
-    }
-    
-    .legend-items {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-}
-
-#skills-section .big {
-    color: rgba(255, 255, 255, 0.08) !important;
-    font-size: 8rem !important;
-    position: absolute !important;
-    left: 0;
-    right: 0;
-    font-weight: 900;
-    z-index: -1;
-    text-transform: uppercase;
-}
-
-#skills-section .heading-section h2 {
-    position: relative;
-    z-index: 1;
+.proficiency-skills {
+    color: #ccc;
 }
