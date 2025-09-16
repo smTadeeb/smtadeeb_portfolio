@@ -1,16 +1,17 @@
 .social-icons {
   position: fixed;
-  top: 15px;
-  right: 15px;
-  z-index: 20000; /* higher than navbar */
+  top: 50%; /* vertical center */
+  left: 10px; /* distance from the left edge */
+  transform: translateY(-50%); /* perfectly center vertically */
+  z-index: 1000; /* make sure it stays on top */
 }
 .social-icons a {
   color: rgb(255, 255, 255);   /* change to white if your header is dark */
-  margin-left: 12px;
+  margin: 10px 0;
   font-size: 1.8rem;
 }
 .social-icons a:hover {
-  color: #0077b5;
+  color: #0090dd;
 }
 
 * {
