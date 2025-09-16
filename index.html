@@ -29,6 +29,32 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+        <style>
+/* Make sure parent alignment doesn't interfere */
+.social-icons {
+    all: unset; /* remove inherited styles */
+    position: fixed !important; /* force it to stay fixed */
+    top: 50% !important;
+    left: 10px !important; /* force left */
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    z-index: 10000 !important;
+}
+
+/* Style for icons */
+.social-icons a {
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #0090dd;
+}
+</style>
+
     </head>
     <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
