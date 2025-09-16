@@ -195,3 +195,10 @@
         .delay-2 { animation-delay: 0.2s; }
         .delay-3 { animation-delay: 0.3s; }
         .delay-4 { animation-delay: 0.4s; }
+
+        @media (max-width: 767px) {
+        .js-fullheight {
+            height: auto !important;
+            min-height: 100vh; /* keeps it tall enough but scrollable */
+        }
+        }
