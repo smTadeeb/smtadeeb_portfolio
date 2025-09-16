@@ -1,3 +1,19 @@
+.social-icons {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  z-index: 9999;
+}
+.social-icons a {
+  color: white;  /* adjust depending on background */
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn hover color */
+}
+
+
 * {
             margin: 0;
             padding: 0;
