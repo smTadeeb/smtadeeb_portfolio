@@ -166,7 +166,11 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
 
 svg {
   overflow: hidden;
